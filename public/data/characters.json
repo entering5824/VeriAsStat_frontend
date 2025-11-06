@@ -1,0 +1,1160 @@
+[
+  {
+    "_id": "bdeff594-f4d5-4ff9-a84d-306f5f650622",
+    "name": "Aino",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/aino.png",
+    "splashPath": "/images/characters/full/aino.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "749c7866-8d2c-4206-9fb6-b46f365c63a3",
+    "name": "Albedo",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/albedo.png",
+    "splashPath": "/images/characters/full/albedo.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "c317dd67-853a-4758-9285-29002aa9fc9a",
+    "name": "Alhaitham",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/alhaitham.png",
+    "splashPath": "/images/characters/full/alhaitham.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "7b31ba6f-12ac-4cb5-9aec-5465e363b9fe",
+    "name": "Aloy",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/aloy.png",
+    "splashPath": "/images/characters/full/aloy.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "eff15c08-eaab-42cd-b56d-674b57d9e264",
+    "name": "Amber",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/amber.png",
+    "splashPath": "/images/characters/full/amber.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "f3e35117-308e-48c8-9e4c-3295e9bbf73f",
+    "name": "Arataki_itto",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/arataki_itto.png",
+    "splashPath": "/images/characters/full/arataki_itto.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "4c82ef4e-78be-4bce-88bc-7985efdd87aa",
+    "name": "Arlecchino",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/arlecchino.png",
+    "splashPath": "/images/characters/full/arlecchino.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "601339e6-9e8d-4d77-81dd-56399cffa775",
+    "name": "Baizhu",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/baizhu.png",
+    "splashPath": "/images/characters/full/baizhu.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "1315bfc9-994c-4076-b23d-3eeb5d338dda",
+    "name": "Barbara",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/barbara.png",
+    "splashPath": "/images/characters/full/barbara.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "3e75950e-3cca-405a-9391-0feffc1f6f14",
+    "name": "Beidou",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/beidou.png",
+    "splashPath": "/images/characters/full/beidou.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "d80ebd42-14cf-4521-b8f8-760af7b45fcf",
+    "name": "Bennett",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/bennett.png",
+    "splashPath": "/images/characters/full/bennett.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "dfac1de9-7a69-482c-a2d4-812d28a3a711",
+    "name": "Candace",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/candace.png",
+    "splashPath": "/images/characters/full/candace.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "04022b5d-b0d3-48a3-b2ff-5d513096df0f",
+    "name": "Characters",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/characters.png",
+    "splashPath": null,
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "ca35496b-e4a4-4a21-96b9-cee65c435610",
+    "name": "Charlotte",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/charlotte.png",
+    "splashPath": "/images/characters/full/charlotte.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "2afacf04-5fa1-4eee-9797-6baecc05a6c3",
+    "name": "Chasca",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/chasca.png",
+    "splashPath": "/images/characters/full/chasca.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "f4fe6cf6-8bf9-4499-b92c-40a499fa61e1",
+    "name": "Chevreuse",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/chevreuse.png",
+    "splashPath": "/images/characters/full/chevreuse.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "361e085a-ca59-40fd-9e3c-88e76cf2ccdd",
+    "name": "Chiori",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/chiori.png",
+    "splashPath": "/images/characters/full/chiori.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "7182612f-dbaa-496d-886a-e39d61487f2c",
+    "name": "Chongyun",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/chongyun.png",
+    "splashPath": "/images/characters/full/chongyun.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "0a8fe921-dfde-4892-b829-505cb21373d0",
+    "name": "Citlali",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/citlali.png",
+    "splashPath": "/images/characters/full/citlali.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "54123d10-ded4-4020-a728-2fe042681382",
+    "name": "Clorinde",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/clorinde.png",
+    "splashPath": "/images/characters/full/clorinde.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "ffe5b53e-c291-44aa-b185-c4a838bc670f",
+    "name": "Collei",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/collei.png",
+    "splashPath": "/images/characters/full/collei.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "9227328b-f34e-4d95-bab6-57414d680db2",
+    "name": "Columbina",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/columbina.png",
+    "splashPath": null,
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "68cafda9-5850-4018-825b-121e7230e84a",
+    "name": "Cyno",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/cyno.png",
+    "splashPath": "/images/characters/full/cyno.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "4f4032d5-e9b9-41da-8118-1acab4848b39",
+    "name": "Dehya",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/dehya.png",
+    "splashPath": "/images/characters/full/dehya.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "c3f859f1-ccfb-489c-a951-3790ddf14013",
+    "name": "Diluc",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/diluc.png",
+    "splashPath": "/images/characters/full/diluc.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "803f0a31-64fb-449b-b5a4-5182b24a8fe8",
+    "name": "Diona",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/diona.png",
+    "splashPath": "/images/characters/full/diona.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "a549f75d-7c0a-4dfd-a514-421284dea6cb",
+    "name": "Dori",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/dori.png",
+    "splashPath": "/images/characters/full/dori.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "5a0b76cf-d956-4f1a-93f9-5822b5135b00",
+    "name": "Durin",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/durin.png",
+    "splashPath": null,
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "893a55bf-8c3a-4fb2-a57f-9ba667b861af",
+    "name": "Emilie",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/emilie.png",
+    "splashPath": "/images/characters/full/emilie.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "148d832e-1fc9-4baa-9e4a-5b3a3557e6b2",
+    "name": "Escoffier",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/escoffier.png",
+    "splashPath": "/images/characters/full/escoffier.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "6bc6289c-bce8-446e-a8dc-75c4fcc2dbd1",
+    "name": "Eula",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/eula.png",
+    "splashPath": "/images/characters/full/eula.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "a10d7613-4fa4-45b9-a774-eaae6b2a93cc",
+    "name": "Faruzan",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/faruzan.png",
+    "splashPath": "/images/characters/full/faruzan.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "4a6c12a6-786e-48da-a8fb-8abc7339cfd7",
+    "name": "Fischl",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/fischl.png",
+    "splashPath": "/images/characters/full/fischl.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "e575b3fb-f16a-47ed-9bc8-0ca4ca78a04c",
+    "name": "Flins",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/flins.png",
+    "splashPath": "/images/characters/full/flins.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "fb434e69-da16-4d4d-b502-39af20e0ed3f",
+    "name": "Freminet",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/freminet.png",
+    "splashPath": "/images/characters/full/freminet.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "1524a370-4a7d-43d5-884c-ad568dc6c5a3",
+    "name": "Furina",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/furina.png",
+    "splashPath": "/images/characters/full/furina.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "23d22184-8e23-42bd-8e15-4c49cfda65b8",
+    "name": "Gaming",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/gaming.png",
+    "splashPath": "/images/characters/full/gaming.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "3502d094-55a3-435c-a135-c09103c28f7b",
+    "name": "Ganyu",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/ganyu.png",
+    "splashPath": "/images/characters/full/ganyu.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "ba916d47-6499-4cc9-98d2-5d7a7aceecd0",
+    "name": "Gorou",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/gorou.png",
+    "splashPath": "/images/characters/full/gorou.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "01624f6c-7af3-4e2d-99e8-63ca4b79036c",
+    "name": "Hu_tao",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/hu_tao.png",
+    "splashPath": "/images/characters/full/hu_tao.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "a5e3b709-328c-4fca-b45b-dc9ab16026fb",
+    "name": "Iansan",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/iansan.png",
+    "splashPath": "/images/characters/full/iansan.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "2d1bca05-7ea8-4d8a-b90c-9e5abf635d86",
+    "name": "Ifa",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/ifa.png",
+    "splashPath": "/images/characters/full/ifa.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "4aaf234a-1c68-4a96-8041-153ef81df682",
+    "name": "Ineffa",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/ineffa.png",
+    "splashPath": "/images/characters/full/ineffa.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "2009b40b-121f-457b-8009-1d6f222bc5a9",
+    "name": "Jean",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/jean.png",
+    "splashPath": "/images/characters/full/jean.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "1dc14c56-ba9b-40d7-adf4-f91f1dc788f1",
+    "name": "Kachina",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/kachina.png",
+    "splashPath": "/images/characters/full/kachina.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "6af9f06f-5a82-4a9e-97ca-e69263cbb11b",
+    "name": "Kaedehara_kazuha",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/kaedehara_kazuha.png",
+    "splashPath": "/images/characters/full/kaedehara_kazuha.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "b9b40aa7-bcc1-4723-8862-f3a7dedf8ac5",
+    "name": "Kaeya",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/kaeya.png",
+    "splashPath": "/images/characters/full/kaeya.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "40b5bc1d-efb7-4807-b8d5-2f220e6baba1",
+    "name": "Kamisato_ayaka",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/kamisato_ayaka.png",
+    "splashPath": "/images/characters/full/kamisato_ayaka.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "51158f5e-365f-4663-9458-12be369840b5",
+    "name": "Kamisato_ayato",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/kamisato_ayato.png",
+    "splashPath": "/images/characters/full/kamisato_ayato.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "fe8e719d-ba9a-44ba-9661-b7bd44733306",
+    "name": "Kaveh",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/kaveh.png",
+    "splashPath": "/images/characters/full/kaveh.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "91fee040-8451-4f52-ae2e-2c81a9dba8dd",
+    "name": "Keqing",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/keqing.png",
+    "splashPath": "/images/characters/full/keqing.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "4d17cfe7-9c88-463c-9599-d2f94ccd8e2a",
+    "name": "Kinich",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/kinich.png",
+    "splashPath": "/images/characters/full/kinich.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "aeeacba7-78ae-42c7-b06d-eda530e8ce86",
+    "name": "Kirara",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/kirara.png",
+    "splashPath": "/images/characters/full/kirara.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "0706768a-b636-4a4a-a32a-c9b58067ef94",
+    "name": "Klee",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/klee.png",
+    "splashPath": "/images/characters/full/klee.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "4eb37b1c-a635-4661-82ee-8a0ea54439dc",
+    "name": "Kujou_sara",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/kujou_sara.png",
+    "splashPath": "/images/characters/full/kujou_sara.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "efb3ec77-6fa0-4d00-a3e4-a8015963fb12",
+    "name": "Kuki_shinobu",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/kuki_shinobu.png",
+    "splashPath": "/images/characters/full/kuki_shinobu.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "2f0ecc37-b216-439a-a13d-0d7b657897ad",
+    "name": "Lan_yan",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/lan_yan.png",
+    "splashPath": "/images/characters/full/lan_yan.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "c1581e47-bc97-49e6-83b4-fee800b3b4d2",
+    "name": "Lauma",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/lauma.png",
+    "splashPath": "/images/characters/full/lauma.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "3ff50e4e-a86b-4cd2-b6ff-8049e818e0e8",
+    "name": "Layla",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/layla.png",
+    "splashPath": "/images/characters/full/layla.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "15b34a08-f0f3-46d6-8e20-03bec047f241",
+    "name": "Lisa",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/lisa.png",
+    "splashPath": "/images/characters/full/lisa.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "b25cd1d3-8236-4d37-a9da-25eee490038b",
+    "name": "Lynette",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/lynette.png",
+    "splashPath": "/images/characters/full/lynette.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "e32eb2e0-0f0d-4e4c-8d38-6f25c7040d22",
+    "name": "Lyney",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/lyney.png",
+    "splashPath": "/images/characters/full/lyney.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "5bd8aad1-be77-4114-ad2c-c798373d64d6",
+    "name": "Mavuika",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/mavuika.png",
+    "splashPath": "/images/characters/full/mavuika.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "e7937ada-9e0b-46d0-8b6c-ea417c7cbe77",
+    "name": "Mika",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/mika.png",
+    "splashPath": "/images/characters/full/mika.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "044ee2ef-4222-44ae-8185-0e6526f424cd",
+    "name": "Mona",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/mona.png",
+    "splashPath": "/images/characters/full/mona.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "1dbeb14c-9293-4043-958d-e3ea98b438e4",
+    "name": "Mualani",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/mualani.png",
+    "splashPath": "/images/characters/full/mualani.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "a59ee7c3-6179-4301-b721-82ff1665986b",
+    "name": "Nahida",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/nahida.png",
+    "splashPath": "/images/characters/full/nahida.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "8dddc049-7c76-40ae-a7b6-57b200694e79",
+    "name": "Navia",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/navia.png",
+    "splashPath": "/images/characters/full/navia.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "f93d8f8f-0b88-4aee-85fb-d904c12c65af",
+    "name": "Nefer",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/nefer.png",
+    "splashPath": "/images/characters/full/nefer.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "351f6fc0-c7a4-46e8-9e71-5075cf1c5862",
+    "name": "Neuvillette",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/neuvillette.png",
+    "splashPath": "/images/characters/full/neuvillette.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "37313307-2f65-4d9f-9ecf-75f23b044e11",
+    "name": "Nilou",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/nilou.png",
+    "splashPath": "/images/characters/full/nilou.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "5754dd22-490f-404e-b9be-ada8405bc9ec",
+    "name": "Ningguang",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/ningguang.png",
+    "splashPath": "/images/characters/full/ningguang.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "45a08e65-dc21-41bd-a705-b174d944a48d",
+    "name": "Noelle",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/noelle.png",
+    "splashPath": "/images/characters/full/noelle.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "e94018ce-eb41-48f1-b616-3d842ec1e7f4",
+    "name": "Ororon",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/ororon.png",
+    "splashPath": "/images/characters/full/ororon.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "cda80528-a1a1-43e9-8f65-d44fc78a1cc2",
+    "name": "Paimon",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/paimon.png",
+    "splashPath": null,
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "c47b8ca7-85d3-48d5-8ac9-dc8b46b1649c",
+    "name": "Qiqi",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/qiqi.png",
+    "splashPath": "/images/characters/full/qiqi.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "2e129266-b557-4309-af8f-4550da5aab74",
+    "name": "Raiden_shogun",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/raiden_shogun.png",
+    "splashPath": "/images/characters/full/raiden_shogun.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "16644bf6-6774-4ffa-bbb3-e3705acec615",
+    "name": "Razor",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/razor.png",
+    "splashPath": "/images/characters/full/razor.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "b8c1eb73-45d8-435e-931a-f8e685d3e623",
+    "name": "Rosaria",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/rosaria.png",
+    "splashPath": "/images/characters/full/rosaria.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "619511c2-785b-4f3f-b73a-3a9b9c4a7f4b",
+    "name": "Sangonomiya_kokomi",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/sangonomiya_kokomi.png",
+    "splashPath": "/images/characters/full/sangonomiya_kokomi.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "6f008cc8-df39-4de6-bbaa-d3beb7fd8e6f",
+    "name": "Sayu",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/sayu.png",
+    "splashPath": "/images/characters/full/sayu.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "4e576095-3f99-459a-ac08-4e888e8f42f7",
+    "name": "Sethos",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/sethos.png",
+    "splashPath": "/images/characters/full/sethos.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "77e012c1-1590-4804-9a9e-b8fe4c52d58a",
+    "name": "Shenhe",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/shenhe.png",
+    "splashPath": "/images/characters/full/shenhe.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "c45137ad-cd39-4feb-ab48-7a7733a85e0a",
+    "name": "Shikanoin_heizou",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/shikanoin_heizou.png",
+    "splashPath": "/images/characters/full/shikanoin_heizou.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "7afdc035-6321-4964-972b-164eec2f6ae4",
+    "name": "Sigewinne",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/sigewinne.png",
+    "splashPath": "/images/characters/full/sigewinne.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "e9460fc4-bdce-4ddf-8f4b-7cfcd3b85a5d",
+    "name": "Skirk",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/skirk.png",
+    "splashPath": "/images/characters/full/skirk.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "d4b1f057-f006-41c0-904e-21011401c021",
+    "name": "Sucrose",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/sucrose.png",
+    "splashPath": "/images/characters/full/sucrose.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "7999d839-57fb-487c-8d3a-dfd0e6ae3d19",
+    "name": "Tartaglia",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/tartaglia.png",
+    "splashPath": "/images/characters/full/tartaglia.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "b428f0a9-1e94-4add-a002-2660e2846bfe",
+    "name": "Thoma",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/thoma.png",
+    "splashPath": "/images/characters/full/thoma.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "400347b7-4f2e-4356-9087-afdb44582df1",
+    "name": "Tighnari",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/tighnari.png",
+    "splashPath": "/images/characters/full/tighnari.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "6897cafb-e61c-46c5-a25a-897f55b20f4b",
+    "name": "Traveler",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/traveler.png",
+    "splashPath": null,
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "bf879227-0da9-43c6-82ce-ad45e664b5eb",
+    "name": "Varesa",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/varesa.png",
+    "splashPath": "/images/characters/full/varesa.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "ec65076b-2277-4949-bb9a-7c5b864d13ea",
+    "name": "Venti",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/venti.png",
+    "splashPath": "/images/characters/full/venti.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "803be178-88af-4bb0-b440-8fee28aedcd7",
+    "name": "Wanderer",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/wanderer.png",
+    "splashPath": "/images/characters/full/wanderer.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "f09e61a5-a462-496e-baab-7801ba9f4909",
+    "name": "Wriothesley",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/wriothesley.png",
+    "splashPath": "/images/characters/full/wriothesley.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "31c4045b-525f-430f-972d-1d9f82ff70b4",
+    "name": "Xiangling",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/xiangling.png",
+    "splashPath": "/images/characters/full/xiangling.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "07170845-1c9f-4220-9983-9e1a7f052a9c",
+    "name": "Xianyun",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/xianyun.png",
+    "splashPath": "/images/characters/full/xianyun.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "5102e77f-a482-4da2-8023-40ffc500129a",
+    "name": "Xiao",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/xiao.png",
+    "splashPath": "/images/characters/full/xiao.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "06f4bdf2-02ac-430b-9815-adc323507c85",
+    "name": "Xilonen",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/xilonen.png",
+    "splashPath": "/images/characters/full/xilonen.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "2cc69a9d-1315-49f5-9547-487151ea38cb",
+    "name": "Xingqiu",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/xingqiu.png",
+    "splashPath": "/images/characters/full/xingqiu.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "f485fe25-a852-4fbd-b8ab-fd95d4e2eb9c",
+    "name": "Xinyan",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/xinyan.png",
+    "splashPath": "/images/characters/full/xinyan.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "e809f37e-0866-41eb-b045-4d1b819ab8be",
+    "name": "Yae miko",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/yae_miko.png",
+    "splashPath": "/images/characters/full/yae_miko.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-06T08:26:33.939Z",
+    "graduationStats": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "critRate": 0,
+      "critDmg": 0,
+      "er": 0,
+      "em": 0,
+      "healBonus": 0,
+      "shieldStrength": 0,
+      "elementalDmgBonus": 0,
+      "spd": 0,
+      "effectHitRate": 0,
+      "effectRes": 0,
+      "breakEffect": 0,
+      "energyRegen": 0,
+      "impact": 0,
+      "penRatio": 0,
+      "skillPower": 0,
+      "anomalyProficiency": 0,
+      "anomalyMastery": 0,
+      "anomalyRate": 0,
+      "anomalyDmg": 0
+    }
+  },
+  {
+    "_id": "d0a926a8-4fad-4ead-9c8e-84aa9af6f3b5",
+    "name": "Yanfei",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/yanfei.png",
+    "splashPath": "/images/characters/full/yanfei.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "c36cff22-4a31-41e0-a492-2e027af2ec22",
+    "name": "Yaoyao",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/yaoyao.png",
+    "splashPath": "/images/characters/full/yaoyao.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "3dd491c6-d4a9-4784-9480-724f18f8a019",
+    "name": "Yelan",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/yelan.png",
+    "splashPath": "/images/characters/full/yelan.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "d2ba8f52-50aa-4e23-b53f-0373e698a4f9",
+    "name": "Yoimiya",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/yoimiya.png",
+    "splashPath": "/images/characters/full/yoimiya.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "6ed12766-798a-4680-b302-07c8e396f70a",
+    "name": "Yumemizuki_mizuki",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/yumemizuki_mizuki.png",
+    "splashPath": "/images/characters/full/yumemizuki_mizuki.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "e570b1da-a0ae-4995-bbd8-ca4ec0cbacee",
+    "name": "Yun_jin",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/yun_jin.png",
+    "splashPath": "/images/characters/full/yun_jin.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "3cdc3236-e392-44da-931b-4d33575c6e8c",
+    "name": "Zhongli",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/zhongli.png",
+    "splashPath": "/images/characters/full/zhongli.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "08befac0-ba10-452f-a5c0-784f7c2efea7",
+    "name": "Castorice",
+    "game": "HSR",
+    "iconPath": "/images/characters/HSR/castorice.png",
+    "splashPath": "/images/characters/full/castorice.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-06T11:14:40.475Z",
+    "graduationStats": {
+      "hp": 9000,
+      "atk": 0,
+      "def": 0,
+      "critRate": 65,
+      "critDmg": 240,
+      "er": 0,
+      "em": 0,
+      "healBonus": 0,
+      "shieldStrength": 0,
+      "elementalDmgBonus": 0,
+      "spd": 95,
+      "effectHitRate": 0,
+      "effectRes": 0,
+      "breakEffect": 0,
+      "energyRegen": 0,
+      "impact": 0,
+      "penRatio": 0,
+      "skillPower": 0,
+      "anomalyProficiency": 0,
+      "anomalyMastery": 0,
+      "anomalyRate": 0,
+      "anomalyDmg": 0
+    }
+  },
+  {
+    "_id": "34c81146-7905-4000-8cc1-1af1230c3f15",
+    "name": "Cipher",
+    "game": "HSR",
+    "iconPath": "/images/characters/HSR/cipher.png",
+    "splashPath": "/images/characters/full/cipher.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-06T11:18:13.453Z",
+    "graduationStats": {
+      "hp": 0,
+      "atk": 2700,
+      "def": 0,
+      "critRate": 50,
+      "critDmg": 180,
+      "er": 0,
+      "em": 0,
+      "healBonus": 0,
+      "shieldStrength": 0,
+      "elementalDmgBonus": 0,
+      "spd": 170,
+      "effectHitRate": 39,
+      "effectRes": 0,
+      "breakEffect": 0,
+      "energyRegen": 0,
+      "impact": 0,
+      "penRatio": 0,
+      "skillPower": 0,
+      "anomalyProficiency": 0,
+      "anomalyMastery": 0,
+      "anomalyRate": 0,
+      "anomalyDmg": 0
+    }
+  },
+  {
+    "_id": "753cc273-e2f9-486a-a1c5-8f5ce2ed2472",
+    "name": "Cyrene",
+    "game": "HSR",
+    "iconPath": "/images/characters/HSR/cyrene.png",
+    "splashPath": "/images/characters/full/cyrene.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-06T11:19:11.504Z",
+    "graduationStats": {
+      "hp": 6000,
+      "atk": 0,
+      "def": 0,
+      "critRate": 50,
+      "critDmg": 180,
+      "er": 0,
+      "em": 0,
+      "healBonus": 0,
+      "shieldStrength": 0,
+      "elementalDmgBonus": 0,
+      "spd": 180,
+      "effectHitRate": 0,
+      "effectRes": 0,
+      "breakEffect": 0,
+      "energyRegen": 0,
+      "impact": 0,
+      "penRatio": 0,
+      "skillPower": 0,
+      "anomalyProficiency": 0,
+      "anomalyMastery": 0,
+      "anomalyRate": 0,
+      "anomalyDmg": 0
+    }
+  },
+  {
+    "_id": "c433dd29-37de-4cf7-9b71-a96fe9432624",
+    "name": "Dahlia",
+    "game": "HSR",
+    "iconPath": "/images/characters/HSR/dahlia.png",
+    "splashPath": "/images/characters/full/dahlia.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "a00c0843-bc48-4a0a-8b1a-73b6a63a0099",
+    "name": "Hyacine",
+    "game": "HSR",
+    "iconPath": "/images/characters/HSR/hyacine.png",
+    "splashPath": "/images/characters/full/hyacine.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "cfdaf745-dd0f-4469-b52a-47c9aaa38274",
+    "name": "Mydei",
+    "game": "HSR",
+    "iconPath": "/images/characters/HSR/mydei.png",
+    "splashPath": "/images/characters/full/mydei.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "d9dd1f91-e2bc-4f1f-9bf2-217ddbbf85fe",
+    "name": "Phainon",
+    "game": "HSR",
+    "iconPath": "/images/characters/HSR/phainon.png",
+    "splashPath": "/images/characters/full/phainon.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "c938bf3c-2147-4101-af5d-1594c8cf888f",
+    "name": "Tribbie",
+    "game": "HSR",
+    "iconPath": "/images/characters/HSR/tribbie.png",
+    "splashPath": "/images/characters/full/tribbie.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  },
+  {
+    "_id": "c876851d-633b-4099-a11f-844506d9e86a",
+    "name": "Lucia",
+    "game": "ZZZ",
+    "iconPath": "/images/characters/ZZZ/lucia.png",
+    "splashPath": "/images/characters/full/lucia.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  }
+]

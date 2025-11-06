@@ -1,0 +1,145 @@
+/* Parallax Header with Navigation */
+.parallax-header {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.parallax-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  will-change: transform;
+}
+
+.bg-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.bg-layer.active {
+  opacity: 1;
+}
+
+.bg-layer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  z-index: 1;
+}
+
+.header-content {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 var(--space-6);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Top bar with logo and navigation */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  filter: invert(1) drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.app-title {
+  font-size: var(--h3);
+  font-weight: var(--font-weight-bold);
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.nav-link {
+  padding: var(--space-2) var(--space-4);
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-md);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link.router-link-active {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.15);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .parallax-header {
+    height: 70px;
+  }
+  
+  .header-content {
+    padding: 0 var(--space-4);
+  }
+  
+  .logo {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .app-title {
+    font-size: var(--font-size-lg);
+  }
+  
+  .nav-link {
+    padding: var(--space-1) var(--space-3);
+    font-size: var(--font-size-sm);
+  }
+}

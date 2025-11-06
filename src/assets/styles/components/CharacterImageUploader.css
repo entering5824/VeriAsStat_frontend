@@ -1,0 +1,101 @@
+/* CharacterImageUploader.vue Styles */
+
+.character-image-uploader {
+  padding: var(--space-4);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.character-image-uploader .uploader-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-4);
+}
+
+.character-image-uploader .uploader-header h4 {
+  margin: 0;
+  color: #ffffff;
+  font-size: var(--font-size-lg);
+}
+
+.character-image-uploader .upload-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+.character-image-uploader .upload-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.character-image-uploader .upload-label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-sm);
+}
+
+.character-image-uploader .upload-preview {
+  width: 100%;
+  height: 120px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.character-image-uploader .upload-preview.splash-preview {
+  height: 200px;
+}
+
+.character-image-uploader .preview-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.character-image-uploader .icon-preview {
+  object-fit: cover;
+}
+
+.character-image-uploader .preview-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.character-image-uploader .upload-actions {
+  display: flex;
+  gap: var(--space-2);
+  align-items: center;
+}
+
+.character-image-uploader .upload-progress {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+}
+
+.character-image-uploader .upload-text {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: var(--font-size-sm);
+}
+
+.character-image-uploader .upload-message {
+  margin-top: var(--space-4);
+}

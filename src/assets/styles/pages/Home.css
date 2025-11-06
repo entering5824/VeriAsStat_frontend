@@ -1,0 +1,109 @@
+/* Home page layout - clean and performant */
+.home-page {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  background: var(--page-radial-bg);
+  min-height: 100vh;
+}
+
+/* Subtle card wrappers with soft hover */
+.game-card-wrapper,
+.version-card-wrapper {
+  height: 100%;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-card-wrapper:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+}
+
+/* Section styles - clean spacing */
+.games-section,
+.upcoming-section {
+  padding: var(--space-8) var(--space-6);
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.section-header {
+  margin-bottom: var(--space-6);
+  text-align: left;
+}
+
+.section-title {
+  color: #ffffff;
+  font-size: var(--h2);
+  font-weight: var(--font-weight-bold);
+  margin: 0 0 var(--space-2) 0;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.7);
+  letter-spacing: -0.02em;
+}
+
+.section-subtitle {
+  color: var(--text-muted-rgba);
+  font-size: var(--font-size-md);
+  margin: 0;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Games grid */
+.games-row {
+  margin: 0 !important;
+}
+
+.games-row .v-col {
+  padding: var(--space-3) !important;
+}
+
+/* Upcoming versions section - GameColumn grid */
+.upcoming-section {
+  margin-top: var(--space-6);
+  margin-bottom: var(--space-6);
+  padding: var(--space-8) var(--space-6);
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.upcoming-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6);
+  margin-top: var(--space-6);
+}
+
+@media (max-width: 1024px) {
+  .upcoming-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .games-section,
+  .upcoming-section {
+    padding: var(--space-6) var(--space-4);
+  }
+
+  .section-title {
+    font-size: var(--h3);
+  }
+
+  .section-subtitle {
+    font-size: var(--font-size-sm);
+  }
+  
+  .upcoming-section {
+    border-radius: 12px;
+  }
+}
+
+.v-card-text {
+  padding: 1em;
+}

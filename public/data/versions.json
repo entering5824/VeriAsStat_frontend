@@ -1,0 +1,434 @@
+[
+  {
+    "game": "GI",
+    "version": "6.0",
+    "release_date": "2025-09-10",
+    "description": "Phiên bản mở đầu chương mới tại khu vực Nod-Krai, với nhân vật 5mới Lauma (Dendro) và Flins (Electro), cùng rerun 5Nahida và Yelan. Dữ liệu leak cho thấy hệ Lunar-Bloom và phản ứng mới, bản đồ mới gồm ba đảo. Thông tin từ cộng đồng leak khá nhiều nhưng chưa chính thức xác nhận. :contentReference[oaicite:0]{index=0}",
+    "_id": "1",
+    "characters_rateup": [
+      {
+        "name": "Lauma",
+        "rarity": "5"
+      },
+      {
+        "name": "Flins",
+        "rarity": "5"
+      },
+      {
+        "name": "Nahida",
+        "rarity": "5(rerun)"
+      },
+      {
+        "name": "Yelan",
+        "rarity": "5(rerun)"
+      }
+    ],
+    "event_region_main": "Nod-Krai",
+    "status": "gone"
+  },
+  {
+    "game": "GI",
+    "version": "6.1",
+    "release_date": "2025-10-22",
+    "description": "Theo các leak: nhân vật mới 5là Nefer (Dendro Bow), cùng rerun 5Zhongli và Arlecchino. Hiện chưa có xác nhận chính thức từ nhà phát triển. Cộng đồng đang theo dõi mô hình sự kiện và banner.",
+    "_id": "2",
+    "characters_rateup": [
+      {
+        "name": "Nefer",
+        "rarity": "5"
+      },
+      {
+        "name": "Furina",
+        "rarity": "5(rerun)"
+      },
+      {
+        "name": "Arlecchino",
+        "rarity": "5(rerun)"
+      },
+      {
+        "name": "Zhongli",
+        "rarity": "5(rerun)"
+      }
+    ],
+    "event_region_main": "Nod-Krai",
+    "status": "confirmed"
+  },
+  {
+    "game": "GI",
+    "version": "6.2",
+    "release_date": "2025-12-03",
+    "description": "Đã được xác nhận ra mắt Durin, hệ hoả, kiếm đơn; Kèm thêm sự thay đổi bộ kỹ năng của Mona, Albedo, Klee, Venti",
+    "_id": "3",
+    "characters_rateup": [
+      {
+        "name": "Durin",
+        "rarity": "5"
+      }
+    ],
+    "event_region_main": "Nod-Krai",
+    "status": "leak"
+  },
+  {
+    "game": "GI",
+    "version": "6.3",
+    "release_date": "2026-01-14",
+    "description": "Theo leak: nhân vật mới 5là Columbina (Hydro Polearm). Đây là bản tiếp nối nội dung của Nod-Krai, vẫn chưa có xác nhận chính thức. ",
+    "_id": "4",
+    "characters_rateup": [
+      {
+        "name": "Columbina",
+        "rarity": "5"
+      }
+    ],
+    "event_region_main": "Nod-Krai",
+    "status": "leak"
+  },
+  {
+    "game": "GI",
+    "version": "6.4",
+    "release_date": "2026-02-25",
+    "description": "Leak cho thấy rằng patch này có thể sẽ **không** ra nhân vật mới rõ ràng, chủ yếu là nội dung & rerun nhân vật – chưa rõ chi tiết. ",
+    "_id": "5",
+    "characters_rateup": [],
+    "event_region_main": "Nod-Krai",
+    "status": "leak"
+  },
+  {
+    "game": "GI",
+    "version": "6.5",
+    "release_date": "2026-04-08",
+    "description": "Theo leak: nhân vật mới là Varka. ",
+    "_id": "6",
+    "characters_rateup": [
+      {
+        "name": "Varka",
+        "rarity": "5"
+      }
+    ],
+    "event_region_main": "Nod-Krai",
+    "status": "leak"
+  },
+  {
+    "game": "GI",
+    "version": "6.6",
+    "release_date": "2026-05-20",
+    "description": "Leak: nhân vật mới là Nicole Reeyn. ",
+    "_id": "7",
+    "characters_rateup": [
+      {
+        "name": "Nicole Reeyn",
+        "rarity": "5"
+      }
+    ],
+    "event_region_main": "Nod-Krai",
+    "status": "leak"
+  },
+  {
+    "game": "GI",
+    "version": "6.7",
+    "release_date": "2026-07-01",
+    "description": "Leak: nhân vật mới 5là Alice (Pyro). Dự kiến theo lịch cập nhật nhưng chưa có xác nhận. ",
+    "_id": "8",
+    "characters_rateup": [
+      {
+        "name": "Alice",
+        "rarity": "5"
+      }
+    ],
+    "event_region_main": "Nod-Krai",
+    "status": "leak"
+  },
+  {
+    "game": "GI",
+    "version": "7.0",
+    "release_date": "2026-08-12",
+    "description": "Được dự đoán: ra mắt khu vực mới (Natlan) và các nhân vật mới – bước khởi đầu cho một chương mới của thế giới trò chơi. Chưa rõ liệu có nhân vật cụ thể nào bị rò rỉ. ",
+    "_id": "9",
+    "characters_rateup": [],
+    "event_region_main": "Natlan",
+    "status": "leak"
+  },
+  {
+    "game": "HSR",
+    "version": "3.5",
+    "release_date": "2025-08-13",
+    "description": "Phiên bản được đánh giá là nơi DOT được nâng cấp đôi chút, Phainon có thêm chút đỉnh. ",
+    "_id": "10",
+    "characters_rateup": [
+      {
+        "name": "Hysilens",
+        "rarity": "5"
+      },
+      {
+        "name": "Cerydra",
+        "rarity": "5"
+      }
+    ],
+    "event_region_main": null,
+    "status": "gone"
+  },
+  {
+    "game": "HSR",
+    "version": "3.6",
+    "release_date": "2025-09-24",
+    "description": "Ra mắt mảnh ghép thay thế Main Ký Ức là Evernight, tặng Free Dan Heng PT ",
+    "_id": "11",
+    "characters_rateup": [
+      {
+        "name": "Evernight",
+        "rarity": "5"
+      },
+      {
+        "name": "Dan Heng • Permansor Terrae",
+        "rarity": "5"
+      }
+    ],
+    "event_region_main": null,
+    "status": "leak"
+  },
+  {
+    "game": "HSR",
+    "version": "3.7",
+    "release_date": "2025-11-05",
+    "description": "Đã được xác nhận: nhân vật Cyrene sẽ xuất hiện. ",
+    "_id": "12",
+    "characters_rateup": [
+      {
+        "name": "Cyrene",
+        "rarity": "5"
+      },
+      {
+        "name": "Castorice",
+        "rarity": "5(rerun)"
+      },
+      {
+        "name": "Hyacine",
+        "rarity": "5(rerun)"
+      },
+      {
+        "name": "Tribbie",
+        "rarity": "5(rerun)"
+      },
+      {
+        "name": "Phainon",
+        "rarity": "5(rerun)"
+      },
+      {
+        "name": "Cipher",
+        "rarity": "5(rerun)"
+      },
+      {
+        "name": "Mydei",
+        "rarity": "5(rerun)"
+      }
+    ],
+    "event_region_main": "",
+    "status": "confirmed"
+  },
+  {
+    "game": "HSR",
+    "version": "4.0",
+    "release_date": "2025-12-17",
+    "description": "Phiên bản mở đầu cho vùng đất mới. ",
+    "_id": "13",
+    "characters_rateup": [
+      {
+        "name": "Dahlia",
+        "rarity": "5"
+      }
+    ],
+    "event_region_main": null,
+    "status": "leak"
+  },
+  {
+    "game": "HSR",
+    "version": "4.1",
+    "release_date": "2026-01-28",
+    "description": "Chưa rõ chi tiết.",
+    "_id": "14",
+    "characters_rateup": [],
+    "event_region_main": null,
+    "status": "no information"
+  },
+  {
+    "game": "HSR",
+    "version": "4.2",
+    "release_date": "2026-03-11",
+    "description": "Chưa rõ chi tiết.",
+    "_id": "15",
+    "characters_rateup": [],
+    "event_region_main": null,
+    "status": "no information"
+  },
+  {
+    "game": "HSR",
+    "version": "4.3",
+    "release_date": "2026-04-22",
+    "description": "Chưa rõ chi tiết.",
+    "_id": "16",
+    "characters_rateup": [],
+    "event_region_main": null,
+    "status": "no information"
+  },
+  {
+    "game": "HSR",
+    "version": "4.4",
+    "release_date": "2026-06-03",
+    "description": "Chưa rõ chi tiết.",
+    "_id": "17",
+    "characters_rateup": [],
+    "event_region_main": null,
+    "status": "no information"
+  },
+  {
+    "game": "HSR",
+    "version": "4.5",
+    "release_date": "2026-07-15",
+    "description": "Chưa rõ chi tiết.",
+    "_id": "18",
+    "characters_rateup": [],
+    "event_region_main": null,
+    "status": "no information"
+  },
+  {
+    "game": "HSR",
+    "version": "4.6",
+    "release_date": "2026-08-26",
+    "description": "Chưa rõ chi tiết.",
+    "_id": "19",
+    "characters_rateup": [],
+    "event_region_main": null,
+    "status": "no information"
+  },
+  {
+    "game": "ZZZ",
+    "version": "2.1",
+    "release_date": "2025-07-16",
+    "description": "Phiên bản ra mắt hoàn thiện team Dị thường ",
+    "_id": "20",
+    "characters_rateup": [
+      {
+        "name": "Yuzuha",
+        "rarity": "5"
+      },
+      {
+        "name": "Miyabi",
+        "rarity": "5"
+      },
+      {
+        "name": "Alice",
+        "rarity": "5"
+      },
+      {
+        "name": "Yanagi",
+        "rarity": "5"
+      }
+    ],
+    "event_region_main": null,
+    "status": "gone"
+  },
+  {
+    "game": "ZZZ",
+    "version": "2.2",
+    "release_date": "2025-09-03",
+    "description": "Ra mắt mảnh ghép hoàn thiện đội Obol. ",
+    "_id": "21",
+    "characters_rateup": [
+      {
+        "name": "Seed",
+        "rarity": "5"
+      },
+      {
+        "name": "Orphie & Magus",
+        "rarity": "5"
+      }
+    ],
+    "event_region_main": null,
+    "status": "gone"
+  },
+  {
+    "game": "ZZZ",
+    "version": "2.3",
+    "release_date": "2025-10-17",
+    "description": "Yidhari và và Lucia ra mắt bổ sung team Mệnh Phá.",
+    "_id": "22",
+    "characters_rateup": [
+      {
+        "name": "Lucia",
+        "rarity": "5"
+      }
+    ],
+    "event_region_main": "",
+    "status": "confirmed"
+  },
+  {
+    "game": "ZZZ",
+    "version": "2.4",
+    "release_date": "2025-11-28",
+    "description": "Chưa rõ chi tiết.",
+    "_id": "23",
+    "characters_rateup": [],
+    "event_region_main": null,
+    "status": "leak"
+  },
+  {
+    "game": "ZZZ",
+    "version": "2.5",
+    "release_date": "2026-01-09",
+    "description": "Chưa rõ chi tiết.",
+    "_id": "24",
+    "characters_rateup": [],
+    "event_region_main": null,
+    "status": "leak"
+  },
+  {
+    "game": "ZZZ",
+    "version": "2.6",
+    "release_date": "2026-02-20",
+    "description": "Chưa rõ chi tiết.",
+    "_id": "25",
+    "characters_rateup": [],
+    "event_region_main": null,
+    "status": "leak"
+  },
+  {
+    "game": "ZZZ",
+    "version": "2.7",
+    "release_date": "2026-04-03",
+    "description": "Chưa rõ chi tiết.",
+    "_id": "26",
+    "characters_rateup": [],
+    "event_region_main": null,
+    "status": "leak"
+  },
+  {
+    "game": "ZZZ",
+    "version": "2.8",
+    "release_date": "2026-05-15",
+    "description": "Chưa rõ chi tiết.",
+    "_id": "27",
+    "characters_rateup": [],
+    "event_region_main": null,
+    "status": "leak"
+  },
+  {
+    "game": "ZZZ",
+    "version": "3.0",
+    "release_date": "2026-06-26",
+    "description": "Bắt đầu Arc mới: giới thiệu khu vực/cốt truyện mới (theo lịch trình chung). Thông tin hiện tại chỉ là dự đoán. ",
+    "_id": "28",
+    "characters_rateup": [],
+    "event_region_main": null,
+    "status": "leak"
+  },
+  {
+    "game": "ZZZ",
+    "version": "3.1",
+    "release_date": "2026-08-07",
+    "description": "Dự kiến: cập nhật nội dung mới và nhân vật rate-up (theo lịch trình chung). Thông tin hiện tại chỉ là dự đoán. ",
+    "_id": "29",
+    "characters_rateup": [],
+    "event_region_main": null,
+    "status": "leak"
+  }
+]

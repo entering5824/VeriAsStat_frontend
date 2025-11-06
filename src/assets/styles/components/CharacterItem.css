@@ -1,0 +1,138 @@
+/* Wrapper cố định chiều cao */
+.character-item-wrap {
+  position: relative;
+  height: 90px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.character-item-wrap:hover {
+  transform: translateY(-2px);
+  /* Increase z-index khi hover để popup hiển thị đè lên tất cả */
+  z-index: 1000;
+}
+
+/* Card chính */
+.character-item-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 100%;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.2s;
+}
+
+.character-item-wrap:hover .character-item-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Icon 25x25px */
+.char-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Tên nhân vật */
+.char-name {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+/* Hover popup */
+.hover-popup {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 8px;
+  background: rgba(20, 20, 30, 0.98);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 12px;
+  min-width: 200px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s, transform 0.2s;
+  /* Z-index cao hơn để đè lên tất cả components khác */
+  z-index: 9999;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7);
+}
+
+.character-item-wrap:hover .hover-popup {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(4px);
+}
+
+/* Popup header */
+.popup-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.splash-thumb {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.popup-title { line-height: 1; }
+
+/* Stats table */
+.stats-table {
+  width: 100%;
+  font-size: 12px;
+}
+
+.stats-table tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.stats-table tr:last-child {
+  border-bottom: none;
+}
+
+.stat-label {
+  padding: 4px 8px 4px 0;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+}
+
+.stat-value {
+  padding: 4px 0 4px 8px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: right;
+  font-weight: 500;
+}
+
+/* No stats fallback */
+.no-stats {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 8px;
+}

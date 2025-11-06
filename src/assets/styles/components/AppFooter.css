@@ -1,0 +1,101 @@
+.app-footer {
+  margin-top: 5em;
+  background: rgba(0, 0, 0, 0.4);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  /* Sticky footer: push to bottom in flex layout */
+  /* Provide visual spacing above footer without affecting sticky behavior */
+  padding-top: var(--space-12);
+  margin-bottom: 0;
+}
+
+.footer-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: var(--space-10) var(--space-6) var(--space-8);
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: var(--space-8);
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.footer-title {
+  font-size: var(--h3);
+  font-weight: var(--font-weight-bold);
+  color: #ffffff;
+  margin: 0;
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.footer-desc {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+  margin: 0;
+  max-width: 400px;
+}
+
+.section-title {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-bold);
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding: var(--space-4) var(--space-6);
+  text-align: center;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: var(--font-size-xs);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+    padding: var(--space-8) var(--space-4) var(--space-6);
+  }
+  
+  .footer-section {
+    text-align: center;
+    align-items: center;
+  }
+  
+  .footer-desc {
+    max-width: 100%;
+  }
+}

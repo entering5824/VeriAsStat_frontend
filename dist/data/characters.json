@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "bdeff594-f4d5-4ff9-a84d-306f5f650622",
+    "name": "Aino",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/aino.png",
+    "splashPath": "/images/characters/full/aino.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "749c7866-8d2c-4206-9fb6-b46f365c63a3",
+    "name": "Albedo",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/albedo.png",
+    "splashPath": "/images/characters/full/albedo.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  {
+    "_id": "c317dd67-853a-4758-9285-29002aa9fc9a",
+    "name": "Alhaitham",
+    "game": "GI",
+    "iconPath": "/images/characters/GI/alhaitham.png",
+    "splashPath": "/images/characters/full/alhaitham.png",
+    "createdAt": "2025-11-04T14:20:25.347662Z",
+    "updatedAt": "2025-11-04T14:20:25.347662Z"
+  },
+  // ... existing code ...
+  {
+    "_id": "c876851d-633b-4099-a11f-844506d9e86a",
+    "name": "Lucia",
+    "game": "ZZZ",
+    "iconPath": "/images/characters/ZZZ/lucia.png",
+    "splashPath": "/images/characters/full/lucia.png",
+    "createdAt": "2025-11-04T14:20:25.349167Z",
+    "updatedAt": "2025-11-04T14:20:25.349167Z"
+  }
+]
+

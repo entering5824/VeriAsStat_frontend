@@ -1,0 +1,114 @@
+/* Base colors from Figma */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+  /* Dark theme colors - Enhanced contrast */
+  --background: #0a0e1a;
+  --foreground: #ffffff;
+  --card: rgba(20, 24, 35, 0.75);
+  --card-foreground: #ffffff;
+  --popover: #1c2130;
+  --popover-foreground: #ffffff;
+  --primary: var(--accent-blue);
+  --primary-foreground: #ffffff;
+  --secondary: #2a2f3e;
+  --secondary-foreground: #ffffff;
+  --muted: #2a2f3e;
+  --muted-foreground: #b8bcc8;
+  --accent: #2a2f3e;
+  --accent-foreground: #ffffff;
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+  --border: rgba(255, 255, 255, 0.15);
+  --input: #2a2f3e;
+  --ring: #fff;
+
+  /* Brand colors */
+  --accent-blue: #646cff;
+  --accent-purple: #8b5cf6;
+  
+  /* Game colors */
+  --genshin: #f78d60;
+  --honkai: #f75270;
+  --zenless: #ffdbb6;
+
+  /* Typography */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Typography scale - Enhanced for better readability */
+  --font-size-xs: 13px;
+  --font-size-sm: 15px;
+  --font-size-md: 17px; /* base - increased from 16px */
+  --font-size-lg: 19px;
+  --font-size-xl: 22px;
+  --font-size-2xl: 26px;
+  --font-size-3xl: 32px;
+  --font-size-4xl: 40px;
+
+  /* Line-height scale - More comfortable reading */
+  --leading-tight: 1.3;
+  --leading-normal: 1.6; /* base - increased from 1.5 */
+  --leading-relaxed: 1.8;
+
+  /* Heading sizes (semantic) - Larger and more distinct */
+  --h1: 2.5rem;    /* 40px - increased from 32px */
+  --h2: 2rem;      /* 32px - increased from 24px */
+  --h3: 1.5rem;    /* 24px - increased from 20px */
+  --h4: 1.25rem;   /* 20px - increased from 18px */
+  --h5: 1.125rem;  /* 18px - new */
+  --h6: 1rem;      /* 16px - new */
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  /* Glass theme tokens - Enhanced visibility */
+  --glass-bg: rgba(255, 255, 255, 0.08);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --glass-blur: 12px;
+  --glass-saturation: 160%;
+  --glass-radius: 16px;
+  --glass-shadow: 0 4px 24px rgba(0, 0, 0, 0.6);
+  --glass-hover-shadow: 0 8px 32px rgba(0, 0, 0, 0.7);
+  --border-gradient: linear-gradient(135deg, #58a6ff, #8b5cf6, #ec4899);
+
+  /* Extended color tokens for CSS-only usage - Enhanced contrast */
+  --surface-900: #151922; /* deep dark surface */
+  --page-radial-bg: radial-gradient(circle at top left, #1f2433, #0f131d);
+  --veil-weak: rgba(255,255,255,0.12);
+  --veil-medium: rgba(255,255,255,0.25);
+  --veil-strong: rgba(255,255,255,0.45);
+  --glass-hover-bg: rgba(255,255,255,0.12);
+  --text-muted-rgba: rgba(255,255,255,0.85);
+  --text-subtle-rgba: rgba(255,255,255,0.75);
+  --overlay-dark-60: rgba(0,0,0,0.70);
+  --text-shadow-dark: rgba(0,0,0,0.60);
+  --text-shadow-glow: 0 2px 8px rgba(0, 0, 0, 0.8);
+
+  /* Selection & scrollbar */
+  --selection-bg: rgba(139, 92, 246, 0.28); /* accent-purple @ ~28% */
+  --selection-fg: #ffffff;
+  --scrollbar-track: rgba(255, 255, 255, 0.03);
+  --scrollbar-thumb: rgba(255, 255, 255, 0.14);
+  --scrollbar-thumb-hover: rgba(255, 255, 255, 0.22);
+
+  /* Aurora accents for background glow */
+  --aurora-1: rgba(100, 108, 255, 0.22);  /* blue */
+  --aurora-2: rgba(139, 92, 246, 0.18);   /* purple */
+  --aurora-3: rgba(236, 72, 153, 0.15);   /* pink */
+  --aurora-4: rgba(34, 211, 238, 0.16);   /* cyan */
+
+  /* Inner shadow helpers for panels */
+  --glass-inner-shadow: inset 0 1px 0 rgba(255,255,255,0.05), inset 0 -1px 0 rgba(0,0,0,0.35);
+
+  --border-color: rgba(255, 255, 255, 0.12);
+}

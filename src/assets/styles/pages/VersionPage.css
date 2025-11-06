@@ -1,0 +1,215 @@
+.sort-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--space-3);
+  margin: var(--space-4) var(--space-6);
+  padding: var(--space-3) var(--space-5);
+  width: 22em;
+
+  /* 🌫 Glass background */
+  background: rgba(25, 25, 40, 0.45);
+  border-radius: 1.2rem;
+  border: 1px solid rgba(180, 150, 255, 0.15);
+  backdrop-filter: blur(18px) saturate(180%);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  box-shadow:
+    inset 0 0 8px rgba(255, 255, 255, 0.06),
+    0 0 15px rgba(140, 100, 255, 0.15),
+    0 0 25px rgba(100, 200, 255, 0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+.sort-toolbar::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(90deg, #a78bfa, #67e8f9, #a78bfa);
+  background-size: 200% 200%;
+  animation: borderFlow 8s linear infinite;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0.85;
+}
+
+/* ✨ Text & select style */
+.sort-toolbar label {
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+
+.sort-toolbar .v-field {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border-radius: 0.8rem;
+  box-shadow: inset 0 0 0 1px rgba(160, 130, 255, 0.2);
+  transition: box-shadow 0.25s ease, background 0.25s ease;
+}
+
+.sort-toolbar .v-field:hover {
+  background: rgba(255, 255, 255, 0.07) !important;
+  box-shadow: inset 0 0 0 1px rgba(180, 150, 255, 0.4),
+              0 0 6px rgba(160, 120, 255, 0.2);
+}
+
+.sort-toolbar .v-field--focused {
+  box-shadow: inset 0 0 0 2px #a78bfa,
+              0 0 8px rgba(160, 120, 255, 0.4);
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+@keyframes borderFlow {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+
+
+
+/* Layout container for three equal columns */
+.version-page {
+  display: flex;
+  gap: var(--space-8);
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: var(--page-radial-bg);
+  padding: var(--space-6);
+  box-sizing: border-box;
+  position: relative; /* for aurora ::before */
+}
+
+.version-page > * {
+  flex: 1 1 0;
+  min-width: 0; /* prevent child overflow from causing horizontal scroll */
+}
+
+
+
+.version-column {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  padding: 0 var(--space-4);
+  border-right: 1px solid var(--border);
+  min-height: 100%;
+}
+
+/* Ensure GameColumn tiles flex properly and don’t overflow on small screens */
+.game-column {
+  /* Make each game column a bit narrower to fit more content */
+  flex: 1 1 300px;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.version-column:last-child {
+  border-right: none;
+}
+
+/* Header */
+.version-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-4) var(--space-2);
+  color: var(--foreground);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: var(--surface-900);
+}
+
+.version-header .title:hover { text-shadow: 0 0 10px var(--accent-purple), 0 0 20px var(--accent-purple); }
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+}
+
+/* add button styles are set inline based on game color */
+
+/* Accent line under header */
+.accent-line {
+  height: 3px;
+  background-color: var(--accent-color);
+  border-radius: 10px;
+  margin-bottom: var(--space-4);
+}
+
+/* List of version cards */
+.version-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+/* Empty state */
+.empty-state {
+  text-align: center;
+  padding: 2rem 0;
+  color: var(--text-subtle-rgba);
+  font-style: italic;
+}
+.versions-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+.versions-list .empty {
+  text-align: center;
+  padding: var(--space-6) 0;
+  color: var(--text-subtle-rgba);
+  font-style: italic;
+}
+
+/* Version card visuals live in src/styles/VersionCard.css */
+
+/* Game view (single game) layout helpers */
+.game-toolbar {
+  margin-top: var(--space-4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.game-toolbar h2 {
+  margin: 0;
+  color: var(--foreground);
+}
+.game-subtitle { color: var(--text-muted-rgba); font-size: var(--font-size-sm); }
+.game-grid-versions {
+  margin-top: var(--space-4);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-3);
+}
+.game-toolbar .toolbar-actions { display: flex; align-items: center; gap: var(--space-3); }
+.game-toolbar .sort-select { max-width: 220px; }
+.builds-section { margin-top: var(--space-4); }
+.builds-empty { padding: var(--space-12); text-align: center; color: var(--text-subtle-rgba); }
+.builds-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--space-3);
+}
+.builds-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.builds-item-subtitle { color: var(--text-muted-rgba); font-size: var(--font-size-sm); }
+.builds-item-actions { display: flex; gap: var(--space-2); }
+
+/* Action hover styles are handled within VersionCard.css */

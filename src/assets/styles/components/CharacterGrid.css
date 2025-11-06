@@ -1,0 +1,32 @@
+/* Grid 8 cột với gap nhỏ */
+.character-grid-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  /* Ensure no overflow issues */
+  overflow: visible;
+}
+
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 12px;
+  /* Allow popup to overflow grid boundaries */
+  overflow: visible;
+}
+
+/* Empty state */
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.empty-icon {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.empty-text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+}
