@@ -1,9 +1,8 @@
 /**
  * Upload Service
  * Handles file uploads to Firebase/Cloudinary via backend API
+ * Note: Currently in frontend-only mode - uploads are disabled
  */
-
-import { api } from '../utils/api'
 
 export interface UploadCharacterImagesResult {
   success: boolean
@@ -66,36 +65,20 @@ class UploadService {
     }
 
     try {
-      const response = await api.post('/upload', formData, {
-        headers: {
-          'Content-Type': 'multipart/form-data'
-        },
-        onUploadProgress: (progressEvent) => {
-          if (onProgress && progressEvent.total) {
-            const percentage = Math.round((progressEvent.loaded * 100) / progressEvent.total)
-            onProgress({
-              loaded: progressEvent.loaded,
-              total: progressEvent.total,
-              percentage
-            })
-          }
-        }
-      })
+      // In frontend-only mode, simulate upload functionality
+      // This would normally connect to a real backend API
+      console.warn('Upload functionality is disabled in frontend-only mode')
+      
+      // Simulate progress
+      if (onProgress) {
+        onProgress({ loaded: 50, total: 100, percentage: 50 })
+        await new Promise(resolve => setTimeout(resolve, 500))
+        onProgress({ loaded: 100, total: 100, percentage: 100 })
+      }
 
-      if (response.data.success) {
-        return {
-          success: true,
-          imageUrlIcon: response.data.imageUrlIcon || response.data.results?.imageUrlIcon,
-          imageUrlSplash: response.data.imageUrlSplash || response.data.results?.imageUrlSplash,
-          results: response.data,
-          characterId: response.data.characterId,
-          uploadService: response.data.uploadService
-        }
-      } else {
-        return {
-          success: false,
-          error: response.data.error || 'Upload failed'
-        }
+      return {
+        success: false,
+        error: 'Upload functionality is not available in frontend-only mode. Please connect to a backend server to enable uploads.'
       }
     } catch (error: any) {
       console.error('Upload error:', error)
@@ -128,12 +111,11 @@ class UploadService {
    * Get upload service information
    */
   async getUploadInfo() {
-    try {
-      const response = await api.get('/upload-info')
-      return response.data
-    } catch (error) {
-      console.error('Failed to get upload info:', error)
-      return { service: 'firebase', ready: false }
+    // In frontend-only mode, return mock data
+    return { 
+      service: 'frontend-only', 
+      ready: false,
+      message: 'Upload functionality requires backend connection'
     }
   }
 }

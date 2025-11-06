@@ -1,49 +1,13 @@
-import type { GameVersion } from '../types'
-
-// Re-export for compatibility with versionService imports
-export type { GameVersion }
-
-let cachedVersions: GameVersion[] | null = null
-
-async function loadVersions(): Promise<GameVersion[]> {
-  if (cachedVersions) return cachedVersions
-  const res = await fetch('/data/versions.json', { cache: 'no-cache' })
-  if (!res.ok) return []
-  const data = await res.json()
-  cachedVersions = Array.isArray(data) ? data : []
-  return cachedVersions
-}
-
-export async function getVersionsByGame(game?: string): Promise<GameVersion[]> {
-  const list = await loadVersions()
-  if (!game) return list
-  const code = (game || '').toUpperCase()
-  return list.filter((v: any) => (v.game || '').toUpperCase() === code)
-}
-
-export async function getVersionById(id: string): Promise<GameVersion | undefined> {
-  const list = await loadVersions()
-  const sid = String(id)
-  return list.find((v: any) => String((v as any)._id || (v as any).id) === sid)
-}
-
 /**
  * Static Data Service
  * Load data from public/data/ folder using fetch
  */
 
 import type { Character } from '../types/character'
+import type { GameVersion } from '../types'
 
-export interface GameVersion {
-  _id: string
-  game: 'GI' | 'HSR' | 'ZZZ'
-  version: string
-  release_date: string
-  description: string
-  characters_rateup: Array<{ name: string; rarity: string }>
-  event_region_main: string | null
-  status: string
-}
+// Re-export for compatibility with versionService imports
+export type { GameVersion }
 
 // Data URLs
 const CHARACTERS_URL = '/data/characters.json'
@@ -83,11 +47,12 @@ export const loadVersions = async (): Promise<GameVersion[]> => {
   }
 
   try {
-    const response = await fetch(VERSIONS_URL)
+    const response = await fetch(VERSIONS_URL, { cache: 'no-cache' })
     if (!response.ok) {
       throw new Error(`Failed to load versions: ${response.statusText}`)
     }
-    versionsCache = await response.json()
+    const data = await response.json()
+    versionsCache = Array.isArray(data) ? data : []
     return versionsCache as GameVersion[]
   } catch (error) {
     console.error('Error loading versions:', error)
@@ -126,7 +91,8 @@ export const getCharacterById = async (id: string): Promise<Character | undefine
 export const getVersionsByGame = async (game?: string): Promise<GameVersion[]> => {
   const versions = await loadVersions()
   if (!game) return versions
-  return versions.filter(ver => ver.game === game)
+  const code = (game || '').toUpperCase()
+  return versions.filter((v: any) => (v.game || '').toUpperCase() === code)
 }
 
 /**
@@ -134,5 +100,6 @@ export const getVersionsByGame = async (game?: string): Promise<GameVersion[]> =
  */
 export const getVersionById = async (id: string): Promise<GameVersion | undefined> => {
   const versions = await loadVersions()
-  return versions.find(ver => ver._id === id)
+  const sid = String(id)
+  return versions.find((v: any) => String((v as any)._id || (v as any).id) === sid)
 }
