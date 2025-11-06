@@ -17,7 +17,8 @@ export function useCharacterStats(character: Character) {
   const hasStats = computed(() => {
     const stats = character.graduationStats || {}
     // Check if graduationStats object exists and has at least one numeric property
-    return stats && Object.keys(stats).length > 0 && Object.values(stats).some(v => typeof v === 'number')
+      return stats && Object.keys(stats).length > 0 && Object.values(stats).some(v => v !== undefined && v !== null && v !== '' && v !== 0);
+    
   })
 
   /**
@@ -42,7 +43,7 @@ export function useCharacterStats(character: Character) {
 
     const pushIf = (label: string, val: any, isPercent = false) => {
       // Allow 0 as a valid value, only skip undefined, null, or empty string
-      if (typeof val === 'number' || (val !== undefined && val !== null && val !== '')) {
+      if ((typeof val === 'number' && val !== 0) || (val !== undefined && val !== null && val !== '' && val !== 0)) {
         rows.push({ 
           label, 
           value: formatStatValue(val, isPercent) 
