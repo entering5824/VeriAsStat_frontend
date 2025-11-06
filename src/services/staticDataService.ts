@@ -13,7 +13,7 @@ export type { GameVersion }
 const CHARACTERS_URL = '/data/characters.json'
 const VERSIONS_URL = '/data/versions.json'
 
-// Cache để tránh load lại nhiều lần
+// Simple in-memory caches
 let charactersCache: Character[] | null = null
 let versionsCache: GameVersion[] | null = null
 
@@ -21,73 +21,50 @@ let versionsCache: GameVersion[] | null = null
  * Load characters data from public/data/characters.json
  */
 export const loadCharacters = async (): Promise<Character[]> => {
-  if (charactersCache) {
-    return charactersCache
-  }
+  if (charactersCache) return charactersCache
 
-  try {
-    const response = await fetch(CHARACTERS_URL)
-    if (!response.ok) {
-      throw new Error(`Failed to load characters: ${response.statusText}`)
-    }
-    charactersCache = await response.json()
-    return charactersCache as Character[]
-  } catch (error) {
-    console.error('Error loading characters:', error)
-    throw error
-  }
+  const response = await fetch(CHARACTERS_URL, { cache: 'no-cache' })
+  if (!response.ok) return []
+  const data = await response.json()
+  charactersCache = Array.isArray(data) ? (data as Character[]) : []
+  return charactersCache
 }
 
 /**
  * Load versions data from public/data/versions.json
  */
 export const loadVersions = async (): Promise<GameVersion[]> => {
-  if (versionsCache) {
-    return versionsCache
-  }
+  if (versionsCache) return versionsCache
 
-  try {
-    const response = await fetch(VERSIONS_URL, { cache: 'no-cache' })
-    if (!response.ok) {
-      throw new Error(`Failed to load versions: ${response.statusText}`)
-    }
-    const data = await response.json()
-    versionsCache = Array.isArray(data) ? data : []
-    return versionsCache as GameVersion[]
-  } catch (error) {
-    console.error('Error loading versions:', error)
-    throw error
-  }
+  const response = await fetch(VERSIONS_URL, { cache: 'no-cache' })
+  if (!response.ok) return []
+  const data = await response.json()
+  versionsCache = Array.isArray(data) ? (data as GameVersion[]) : []
+  return versionsCache
 }
 
 /**
- * Clear cache - useful for development or when data is updated
+ * Clear caches
  */
 export const clearCache = () => {
   charactersCache = null
   versionsCache = null
 }
 
-/**
- * Get characters by game
- */
+/** Characters helpers **/
 export const getCharactersByGame = async (game?: string): Promise<Character[]> => {
   const characters = await loadCharacters()
   if (!game) return characters
-  return characters.filter(char => char.game === game)
+  return characters.filter((c: any) => (c.game || '') === game)
 }
 
-/**
- * Get character by ID
- */
 export const getCharacterById = async (id: string): Promise<Character | undefined> => {
   const characters = await loadCharacters()
-  return characters.find(char => char._id === id)
+  const sid = String(id)
+  return characters.find((c: any) => String((c as any)._id || (c as any).id) === sid)
 }
 
-/**
- * Get versions by game
- */
+/** Versions helpers **/
 export const getVersionsByGame = async (game?: string): Promise<GameVersion[]> => {
   const versions = await loadVersions()
   if (!game) return versions
@@ -95,9 +72,6 @@ export const getVersionsByGame = async (game?: string): Promise<GameVersion[]> =
   return versions.filter((v: any) => (v.game || '').toUpperCase() === code)
 }
 
-/**
- * Get version by ID
- */
 export const getVersionById = async (id: string): Promise<GameVersion | undefined> => {
   const versions = await loadVersions()
   const sid = String(id)
