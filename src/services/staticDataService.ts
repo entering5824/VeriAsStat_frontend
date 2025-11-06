@@ -1,3 +1,32 @@
+import type { GameVersion } from '../types'
+
+// Re-export for compatibility with versionService imports
+export type { GameVersion }
+
+let cachedVersions: GameVersion[] | null = null
+
+async function loadVersions(): Promise<GameVersion[]> {
+  if (cachedVersions) return cachedVersions
+  const res = await fetch('/data/versions.json', { cache: 'no-cache' })
+  if (!res.ok) return []
+  const data = await res.json()
+  cachedVersions = Array.isArray(data) ? data : []
+  return cachedVersions
+}
+
+export async function getVersionsByGame(game?: string): Promise<GameVersion[]> {
+  const list = await loadVersions()
+  if (!game) return list
+  const code = (game || '').toUpperCase()
+  return list.filter((v: any) => (v.game || '').toUpperCase() === code)
+}
+
+export async function getVersionById(id: string): Promise<GameVersion | undefined> {
+  const list = await loadVersions()
+  const sid = String(id)
+  return list.find((v: any) => String((v as any)._id || (v as any).id) === sid)
+}
+
 /**
  * Static Data Service
  * Load data from public/data/ folder using fetch
