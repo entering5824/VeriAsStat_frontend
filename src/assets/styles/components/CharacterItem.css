@@ -20,7 +20,7 @@
   justify-content: center;
   gap: 8px;
   height: 100%;
-  padding: 10px;
+  padding: 5px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -34,8 +34,8 @@
 
 /* Icon 25x25px */
 .char-icon {
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid rgba(255, 255, 255, 0.2);
