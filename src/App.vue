@@ -11,7 +11,7 @@
     </main>
     
     <!-- AI Chatbot Widget -->
-    <ChatWidget />
+   <!-- <ChatWidget /> tắt chat widget, chỉ thể chạy local vì này chỉ là read only, không gọi API được-->
     <!-- Global Footer inside app root -->
     <AppFooter />
   </div>
